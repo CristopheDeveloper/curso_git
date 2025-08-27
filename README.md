@@ -38,6 +38,26 @@ git add -A # La misma manera solo que con decir que todos los archivos sin punto
 # Agregar archivos directamente solo un archivo en especifico
 git add nombreArchivo
 
+git commit -m "Mensaje del commit" # Agrega el comentario para aguardar la actualizacion
+#NOTA :usar palabras simples o palabras en ingles para definir los comentarios
+git push -u nombreRepo Rama # Subir directamente al Repositorio en la Nube
+
+```
+## Manejo de Ramas
+```bash
+git branch nombre-rama     # Crear una nueva rama
+git checkout nombre-rama   # Cambiar de rama
+git checkout -b nueva-rama # Crear y cambiar a la vez
+git branch                 # Listar ramas
+```
+
+## Conexión con repositorios remotos
+```bash
+git remote add origin url-del-repositorio
+git push -u origin main   # Subir cambios iniciales
+git pull origin main      # Traer cambios desde remoto
+```
+[Aquí puedes aprender Git de manera interactiva](https://learngitbranching.js.org/)
 
 
 
